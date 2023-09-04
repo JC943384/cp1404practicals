@@ -1,6 +1,8 @@
-MENU = """         (H)ello
-               (G)oodbye
-               (Q)uit"""
+MENU = """          
+      (H)ello
+      (G)oodbye
+      (Q)uit
+               """
 name = input("Please enter name  ")
 print(MENU)
 
