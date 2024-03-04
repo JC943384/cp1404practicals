@@ -9,9 +9,10 @@ with open('name.txt', 'r') as out_file:
     # Print the name
     print("Your name is", name)
 
+NUM_OF_NUMBERS_TO_ADD = 2
 with open("numbers.txt", 'r') as file:
     total = 0
-    for i in range(2):
+    for i in range(NUM_OF_NUMBERS_TO_ADD):
         num = int(file.readline())
         total += num
     print("first two numbers adds:", total)
