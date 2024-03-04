@@ -17,6 +17,7 @@ numbers[-1] = 1
 print(numbers)
 # Print all the elements from numbers except the first two (slice)
 print(sum(numbers[1:]))
+
 # Print whether 9 is an element of numbers
 if 9 in numbers:
     print("9 is an element of numbers")
