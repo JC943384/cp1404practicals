@@ -16,6 +16,7 @@ print("Available code  name: ")
 for code_name in CODE_TO_NAME:
     print(code_name)
 
+
 state_code = input("Enter short state: ").upper()
 while state_code != "":
     if state_code in CODE_TO_NAME:
