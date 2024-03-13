@@ -19,7 +19,7 @@ def main():
             print("Invalid email format. Please enter a valid email.")
     print("\nUser Data")
     for email, name in user_data.items():
-        print(f"Email data: {email}, User name : {name}")
+        print(f"{name} ({email})")
 
 
 def get_name(email):
