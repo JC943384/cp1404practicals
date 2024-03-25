@@ -3,16 +3,18 @@ CP1404 Week 11 Workshop - GUI program to convert miles to kilometres
 JiahaoSong, IT@JCU
 25/03/2024
 """
-
 from kivy.app import App
 from kivy.lang import Builder
-
-__author__ = 'JiahaoSong'
+from kivy.properties import StringProperty
+from kivy.properties import NumericProperty
 
 MILES_TO_KM = 1.60934
 
 
 class MilesConverterApp(App):
+    output_text = StringProperty('')
+    input_miles_value = NumericProperty(0)
+
     def build(self):
         self.title = "Convert Miles to Kilometres"
         self.root = Builder.load_file('convert_m_km_solution.kv')
